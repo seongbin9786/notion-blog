@@ -1,3 +1,6 @@
+// react-notion-x의 내부 의존성에 대한 타입을 못 잡고 있어서 어쩔 수 없이 비활성화
+// eslint-disable-next-line
+// @ts-nocheck
 import * as React from 'react'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
