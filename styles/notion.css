@@ -12,6 +12,12 @@
   --notion-header-height: 54px;
 }
 
+/* 모바일에서 code block이 우측으로 길게 늘여뜰여지는 현상 수정 */
+/** @see https://github.com/transitive-bullshit/nextjs-notion-starter-kit/issues/544#issuecomment-1881060924 */
+.notion-list {
+  max-width: 100%;
+}
+
 .notion-frame {
   padding: 0;
 }
@@ -400,6 +406,6 @@
   color: var(--fg-color-2);
 }
 
-.notion-equation.notion-equation-block{
+.notion-equation.notion-equation-block {
   align-items: center;
 }
